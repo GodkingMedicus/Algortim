@@ -41,13 +41,13 @@ namespace Algorithms
             for (int i = 1; i < 10; i++)
             {
                 int y = i * 1500;
-                LinearSearch(sortedNumbers, array_size, sortedNumbers[y]);
+                LinearSearch(sortedNumbers, array_size, unsortedNumbers[y]);
             }
 
             for (int i = 1; i < 10; i++)
             {
                 int y = i * 1500;
-                BinarySearch(sortedNumbers, array_size, sortedNumbers[y]);
+                BinarySearch(sortedNumbers, array_size, unsortedNumbers[y]);
             }
 
             Console.WriteLine("Press enter to close...");
