@@ -119,7 +119,6 @@ namespace Algorithms
             {
                 if(arr[i] == searchedNum)
                 {
-                    Console.WriteLine("Search Complete");
                     Console.WriteLine("Searched Num: " + searchedNum + " found at position " + i);
                 }
             }
@@ -139,7 +138,6 @@ namespace Algorithms
                 int mid = (min + max) / 2;
                 if(searchedNum == sortedArr[mid])
                 {
-                    Console.WriteLine("Search Complete");
                     Console.WriteLine("Searched Num: " + searchedNum + " found at position " + mid);
                     break;
                 }
